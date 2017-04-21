@@ -41,7 +41,7 @@ function initPaymentRequest() {
       {
         id: 'express',
         label: 'Express shipping',
-        amount: {currency: 'GBP', value: '12.00'},
+        amount: {currency: 'USD', value: '12.00'},
       },
     ],
   };
