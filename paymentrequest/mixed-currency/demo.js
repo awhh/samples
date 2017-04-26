@@ -28,14 +28,14 @@ function initPaymentRequest() {
       },
       {
         label: 'Standard shipping',
-        amount: {currency: 'USD', value: '0.00'},
+        amount: {currency: 'CNY', value: '10.00'},
       },
     ],
     shippingOptions: [
       {
         id: 'standard',
         label: 'Standard shipping',
-        amount: {currency: 'USD', value: '0.00'},
+        amount: {currency: 'CNY', value: '10.00'},
         selected: true,
       },
       {
@@ -53,7 +53,7 @@ function initPaymentRequest() {
   const promise = Promise.resolve({
         total: {
                 label: 'Haro',
-                      amount: {
+                amount: {
                                 currency: 'GBP',
                                         value: '1',
                                               },
